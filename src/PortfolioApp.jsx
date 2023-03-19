@@ -1,11 +1,9 @@
-import { Typography } from '@mui/material'
-import chache from '../src/assests/chache.jpeg'
+import PortfolioRoutes from './routes/PortfolioRoutes'
 
 const PortfolioApp = () => {
 	return (
 		<>
-			<Typography variant='h1'>Portfolio - Jose Moreno</Typography>
-			<img src={chache} />
+			<PortfolioRoutes />
 		</>
 	)
 }
